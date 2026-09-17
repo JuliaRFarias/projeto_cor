@@ -1,0 +1,24 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#resp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.05rem solid;
+    width: fit-content;
+    min-width: 6rem;
+    height:1.5rem;
+    font-size: clamp(1rem, 4vw, 1.2rem);
+    max-width: 98vw;
+    text-align: center;
+    background-color: black;
+    color: white;
+    transition: all 0.3 ease;
+}
+
+#resp.ativo{
+    background-color: rgb(59, 12, 28);
+    color: rgb(237, 163, 187);
+}
